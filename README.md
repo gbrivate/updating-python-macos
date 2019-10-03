@@ -8,9 +8,12 @@ As some of you may know, usually the Python version that comes in MacOS is lower
 
 ## Chekgin the Python version and path
 
+Ensure you have installed brew if not have a look at https://brew.sh
+
 Run the following commands:
 ```
 python -V
 which python
-
 ```
+
+
