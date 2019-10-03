@@ -30,8 +30,16 @@ Now let's check the current version of python and where it is installed.
 
 Run the following commands:
 ```
-python -V
+# what I thought would work
+# first, I'll find my python binary
 which python
+/usr/bin/python
+
+# next, I'll move it to an unused name
+sudo mv /usr/bin/python /usr/bin/python2
+
+# lastly, I'll move the new binary to the previous path
+sudo mv $PATHTOBINARY/python3 /usr/bin/python
 ```
 
 
